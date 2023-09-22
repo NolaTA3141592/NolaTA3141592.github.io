@@ -1,0 +1,45 @@
+#Life-wrapper {
+    background-color: #44A3B0;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 70px;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    /* min-height: 500px; */
+    flex-direction: column;
+}
+#Life-list-wrapper {
+    display: block;
+    padding-left: 10%;
+}
+#Life-title {
+    border-bottom: double 5px #000000;
+    width: 45px;
+    /* min-height: 100px; */
+    margin-bottom: 30px;
+}
+.Life-list-date {
+    float: left;
+    margin-right: 30px;
+}
+.Life-list-content {
+    float: left;
+}
+/* #AboutMe-profile-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.AboutMe-profile {
+    display: flex;
+}
+.AboutMe-profile-title {
+    min-width: 100px;
+    font-weight: 500;
+}
+.AboutMe-profile-content::before {
+    content: ': ';
+}
+.AboutMe-profile-content {
+    font-size: large;
+    font-weight: auto;
+} */
