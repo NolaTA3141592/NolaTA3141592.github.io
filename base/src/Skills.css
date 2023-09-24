@@ -1,0 +1,68 @@
+#Skills-wrapper {
+    background-color: #88D2B2;
+    display: flex;
+    padding-left: 15%;
+    padding-top: 70px;
+    padding-bottom: 15%;
+    padding-right: 15%;
+    /* min-height: 500px; */
+    flex-direction: column;
+}
+#Skills-title {
+    border-bottom: double 5px #000000;
+    width: 60px;
+    /* min-height: 100px; */
+    margin-bottom: 30px;
+}
+#Skills-list-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 10%; */
+    /* margin-right: 10%; */
+    justify-content: space-around;
+}
+.Skills-skill {
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 10%; */
+    /* align-items: center; */
+    /* min-height: 100px; */
+    /* min-width: 100px; */
+    /* min-width: 20%; */
+    /* max-width: 30%; */
+    width: 30%;
+
+}
+.Skills-skill-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+.Skills-skill-content {
+    margin-top: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+.Skills-skill-content > p {
+    font-size: 20px;
+}
+.Skills-skill-content-Sentences {
+    font-weight: 100;
+}
+/* #AboutMe-profile-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.AboutMe-profile {
+    display: flex;
+}
+.AboutMe-profile-title {
+    min-width: 100px;
+    font-weight: 500;
+}
+.AboutMe-profile-content::before {
+    content: ': ';
+}
+.AboutMe-profile-content {
+    font-size: large;
+    font-weight: auto;
+} */
